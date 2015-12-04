@@ -1,5 +1,7 @@
 package com.zemo.easy.sametree;
 
+import com.zemo.util.TreeNode;
+
 /**
  * @ClassName: SameTree
  * @author: SuperZemo
