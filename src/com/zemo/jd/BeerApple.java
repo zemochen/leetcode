@@ -15,6 +15,7 @@ package com.zemo.jd;
  *              n=3, a =
  */
 public class BeerApple {
+    //TODO haven't work out
     public static void main(String[] args) {
         int n = 9;//熊数
         int a ;     //苹果数
