@@ -1,4 +1,4 @@
-package com.zemo.easy.sametree;
+package com.zemo.easy.node.tree;
 
 import com.zemo.util.TreeNode;
 

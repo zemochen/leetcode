@@ -1,4 +1,4 @@
-package com.zemo.easy.link;
+package com.zemo.easy.node.list;
 
 import com.zemo.util.ListNode;
 

@@ -1,4 +1,4 @@
-package com.zemo.easy.symmetrictree;
+package com.zemo.easy.node.tree;
 
 import com.zemo.util.TreeNode;
 
