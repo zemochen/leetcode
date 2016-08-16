@@ -14,7 +14,7 @@ package com.zemo.easy.add.digits;
 public class AddDigits {
 
     public static void main(String[] args) {
-        System.out.println(addDigits(888888));
+        System.out.println(addDigits(88));
     }
 
     public static int addDigits(int num) {
