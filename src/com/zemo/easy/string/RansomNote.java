@@ -1,8 +1,6 @@
 package com.zemo.easy.string;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @ClassName: RansomNote
@@ -36,16 +34,20 @@ public class RansomNote {
 
     public static boolean canConstruct2(String ransomNote, String magazine) {
         ArrayList<Character> list = new ArrayList<Character>();
-        for (char c : magazine.toCharArray())
+        for (char c : magazine.toCharArray()) {
             list.add(c);
-        for (char c : ransomNote.toCharArray())
-            if (!list.remove((Character) c))
+        }
+        for (char c : ransomNote.toCharArray()) {
+            if (!list.remove((Character) c)) {
                 return false;
+            }
+        }
         return true;
     }
 
     public static void main(String[] args) {
-        System.out.println(canConstruct2("bjaajgea", "affhiiicabhbdchbidghccijjbfjfhjeddgggbajhidhjchiedhdibgeaecffbbbefiabjdhggihccec"));
+        System.out.println(canConstruct2("bjaajgea",
+            "affhiiicabhbdchbidghccijjbfjfhjeddgggbajhidhjchiedhdibgeaecffbbbefiabjdhggihccec"));
 //        System.out.println(canConstruct("a","aa"));
     }
 }

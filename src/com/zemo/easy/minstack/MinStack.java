@@ -52,6 +52,12 @@ public class MinStack {
             min.push(i);
         }
 
+        System.out.println(min.getMin());
+        System.out.println(min.top());
+        min.pop();
+
+        System.out.println(min.top());
+
         timer.useTime(new Date());
     }
 }

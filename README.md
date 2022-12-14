@@ -1,11 +1,2 @@
-#create a new repository on the command line
-touch README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/zemochen/leetcode.git
-git push -u origin master
+This is my leetcode execuse record, hope helpful to you ![08E8A0F1](https://user-images.githubusercontent.com/5241928/184343434-fb88e530-8deb-4573-be86-7d8f2cdc028f.png)
 
-#push an existing repository from the command line
-git remote add origin https://github.com/zemochen/leetcode.git
-git push -u origin master
