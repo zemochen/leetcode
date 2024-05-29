@@ -14,7 +14,7 @@ package com.zemo.easy.integer;
 public class ReverseInteger {
     public static void main(String[] args) {
         ReverseInteger reverseInteger = new ReverseInteger();
-        System.out.println(reverseInteger.reverse(-1));
+        System.out.println(reverseInteger.reverse(-123));
 
     }
 

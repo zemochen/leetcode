@@ -7,7 +7,6 @@ import java.util.Stack;
  * @author: SuperZemo
  * @email: zemochen@gmail.com
  * @Date 11/17/14 23:18
- * @Description bcz I don't know java has Stack.class ╮(╯▽╰)╭
  */
 public class Answer {
     class MinStack {
